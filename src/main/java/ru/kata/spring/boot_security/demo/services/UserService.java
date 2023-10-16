@@ -1,4 +1,5 @@
-package ru.kata.spring.boot_security.demo.service;
+package ru.kata.spring.boot_security.demo.services;
+
 
 import ru.kata.spring.boot_security.demo.entity.User;
 
@@ -13,7 +14,7 @@ public interface UserService {
 
     public User addUsers(User user);
 
-    public void update(User user);
+    public void update(User user, Long id);
 
     public User findByName(String name);
 }
