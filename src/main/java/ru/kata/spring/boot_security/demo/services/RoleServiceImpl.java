@@ -13,6 +13,7 @@ public class RoleServiceImpl implements RoleService {
 
     @Autowired
     public RoleServiceImpl(RoleRepository roleRepository) {
+
         this.roleRepository = roleRepository;
     }
 
