@@ -83,6 +83,8 @@ async function newUser() {
 }
 
 
+
+
 $('#updateModal').on('show.bs.modal', ev => {
     let button = $(ev.relatedTarget);
     let id = button.attr('data-userid');
